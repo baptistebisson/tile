@@ -162,12 +162,12 @@ L.Control.TileLegend = L.Control.Attribution.extend({
 
     addTo: function (map) {
         L.Control.Attribution.prototype.addTo.call(this, map);
-        map.fire('legendcontrolready');
+        mymap.fire('legendcontrolready');
         return this;
     },
 
     onRemove: function (map) {
-        map
+        mymap
             .off('layeradd', this.onLayerAddRemove, this)
             .off('layerremove', this.onLayerAddRemove, this);
 
