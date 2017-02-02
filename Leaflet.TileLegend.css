@@ -81,7 +81,7 @@
     overflow: hidden;
 }
 .leaflet-control-tilelegend li .tilelegend-zoom-to {
-    background-image: url('zoom_to.png');
+    background-image: url('https://github.com/baptistebisson/tile/blob/master/zoom_to.png?raw=true');
     background-repeat: no-repeat;
     background-position: center center;
     position: absolute;
@@ -116,7 +116,7 @@
 .tilelegend-minimize,
 .tilelegend-maximize,
 .tilelegend-close {
-    background-image: url('./toolbox.png');
+    background-image: url('https://github.com/baptistebisson/tile/raw/master/toolbox.png');
     background-repeat: no-repeat;
     background-position: center center;
     width: 12px;
