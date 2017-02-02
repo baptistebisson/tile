@@ -151,7 +151,7 @@ L.Control.TileLegend = L.Control.Attribution.extend({
             L.DomEvent.on(this._container, 'click', L.DomEvent.stopPropagation);
         }
 
-        map
+        mymap
             .on('layeradd', this.onLayerAddRemove, this)
             .on('layerremove', this.onLayerAddRemove, this);
 
