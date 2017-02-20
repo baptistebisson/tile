@@ -1,6 +1,6 @@
 L.Control.MousePosition = L.Control.extend({
   options: {
-    position: 'bottomright',
+    position: 'topright',
     separator: ' : ',
     emptyString: 'Unavailable',
     lngFirst: false,
